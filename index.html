@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Verify Your Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+       <br>
+      <br>
+      <br>
+      <h1 >Enter Your Transaction Hash to Verify</h1>
+      
+      <form action="/verify" method="POST">
+        <div class="form-group">
+          <label for="hash">Hash</label>
+          <input type="text" class="form-control" id="hash" aria-describedby="emailHelp" placeholder="0x94d70e5524dbab5ec05f0beb1c9acb7129a3b0bce3dd196fa182228628619b63" name="hash">
+        </div>
+         <br>
+      <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+  </body>
+</html>
